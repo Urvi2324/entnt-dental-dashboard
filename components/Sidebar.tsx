@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
       <aside className={`fixed lg:relative inset-y-0 left-0 bg-slate-800 text-white w-64 space-y-6 py-7 px-4 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 transition-transform duration-200 ease-in-out z-30 flex flex-col`}>
         <div className="flex items-center justify-between">
             <a href="#" className="text-white text-2xl font-extrabold flex items-center">
-                <img src="/logo.jpg" alt="ENTNT Logo" className="h-8 w-8 mr-2" />
+                <img src="/logo.png" alt="ENTNT Logo" className="h-8 w-8 mr-2" />
                 ENTNT
             </a>
             <button className="lg:hidden text-gray-400 hover:text-white" onClick={() => setIsOpen(false)}>

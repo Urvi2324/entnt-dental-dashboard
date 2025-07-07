@@ -26,7 +26,7 @@ const Login: React.FC = () => {
       <div className="w-full max-w-md p-8 space-y-8 bg-surface rounded-xl shadow-lg">
         <div className="text-center">
             <div className="flex justify-center items-center mb-4">
-                 <img src="/public/logo.png" alt="ENTNT Logo" className="h-18 w-16" />
+                 <img src="/logo.png" alt="ENTNT Logo" className="h-18 w-16" />
             </div>
           <h2 className="text-3xl font-bold text-textPrimary">Welcome Back</h2>
           <p className="mt-2 text-sm text-textSecondary">Sign in to the ENTNT Dental Dashboard</p>
