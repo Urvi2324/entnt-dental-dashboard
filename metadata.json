@@ -1,0 +1,5 @@
+
+{
+  "name": "ENTNT Dental Center Management",
+  "description": "A dashboard for ENTNT Dental Center to manage patients, appointments, and treatment records. The system provides role-based access for Admins (Dentists) and Patients, with all data persisted locally."
+}

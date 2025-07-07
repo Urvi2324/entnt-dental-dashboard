@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ENTNT Dental Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#0284c7', // sky-600
+                hover: '#0369a1',   // sky-700
+                focus: '#0ea5e9',   // sky-500
+              },
+              secondary: '#10b981', // emerald-500
+              accent: '#f59e0b',    // amber-500
+              background: '#f1f5f9', // slate-100
+              surface: '#ffffff',
+              textPrimary: '#1e293b', // slate-800
+              textSecondary: '#64748b', // slate-500
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.525.0",
+    "recharts": "https://esm.sh/recharts@^3.0.2",
+    "date-fns": "https://esm.sh/date-fns@^4.1.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
